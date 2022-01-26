@@ -17,7 +17,7 @@ class CreateAlbumsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('gold_records');
-            $table->string('platinum');
+            $table->string('platinum_records');
             $table->tinyInteger('number_of_songs');
             $table->year('year_of_release');
             // $table->timestamps();
